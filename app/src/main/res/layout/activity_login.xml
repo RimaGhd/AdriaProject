@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rima.AdriaProject.Views.LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="Test de validation technique ADRIA &amp; BT"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#F75E1E"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="209dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/albums_button"
+            android:layout_width="212dp"
+            android:layout_height="28dp"
+            android:layout_margin="8dp"
+            android:background="#42659b"
+            android:text="Albums"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="gone"
+          />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="0.3"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/logoadria" />
+
+</LinearLayout>
